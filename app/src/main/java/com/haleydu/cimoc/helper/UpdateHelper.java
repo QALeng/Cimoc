@@ -100,6 +100,7 @@ public class UpdateHelper {
         list.add(QiMiaoMH.getDefaultSource());
         list.add(YKMH.getDefaultSource());
         list.add(DmzjFix.getDefaultSource());
+        list.add(XManHua.getDefaultSource());
         session.getSourceDao().insertOrReplaceInTx(list);
     }
 }
